@@ -1,6 +1,6 @@
-### EX NO: 03
+### EX NO:03
 ### DATE: 11.04.2022
-# <p align="center"> MULTI-CLASS-CLASSIFICATION</p>
+# <p align="center">MULTI-CLASS-CLASSIFICATION<p/>
 ## AIM:
 
 To write a python program to implement the multi class classification algorithm .
@@ -16,19 +16,19 @@ In multi-class classification, the neural network has the same number of output 
 
 ## ALGORITHM:
 
-1. Import the necessary modules
-2. Frame the dataset using make_blobs
-3. Assign the counter value using the Counter function
-4. Using a for loop, plot the points using scatter function
+1. Import the necessary modules.
+2. Frame the dataset using make_blobs.
+3. Assign the counter value using the Counter function.
+4. Using a for loop, plot the points using scatter function.
 
 ## PROGRAM:
-
 ```
-/*
 Program to implement the multi class classifier.
-Developed by: VIJAYARAGAVAN ARR
-RegisterNumber: 212220230059
-*/
+Developed by   : VIJAYARAGAVAN ARR
+Register Number : 212220230059
+```
+```python
+
 from numpy import where
 from collections import Counter
 from sklearn.datasets import make_blobs
